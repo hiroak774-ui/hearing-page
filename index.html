@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>事前ヒアリング</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:
+        "Inter",
+        "Noto Sans JP",
+        sans-serif;
+
+      background:#f5f7fb;
+      color:#111827;
+      line-height:1.7;
+    }
+
+    .container{
+      width:100%;
+      max-width:1080px;
+      margin:0 auto;
+      padding:0 24px;
+    }
+
+    .hero{
+      padding:80px 0 56px;
+      background:
+        linear-gradient(
+          135deg,
+          #0f172a,
+          #1e293b
+        );
+
+      color:#fff;
+      text-align:center;
+    }
+
+    .hero-label{
+      display:inline-block;
+
+      margin-bottom:18px;
+      padding:6px 16px;
+
+      border:
+        1px solid rgba(255,255,255,0.3);
+
+      border-radius:999px;
+
+      font-size:14px;
+      color:#cbd5e1;
+    }
+
+    .hero h1{
+      font-size:38px;
+      line-height:1.4;
+      margin-bottom:20px;
+      font-weight:700;
+    }
+
+    .hero p{
+      font-size:17px;
+      color:#cbd5e1;
+    }
+
+    .section{
+      padding:56px 0;
+    }
+
+    .card{
+      background:#fff;
+
+      border-radius:20px;
+
+      padding:36px;
+
+      box-shadow:
+        0 12px 30px
+        rgba(15,23,42,0.08);
+
+      margin-bottom:28px;
+    }
+
+    .section-title{
+      font-size:26px;
+      margin-bottom:18px;
+      color:#0f172a;
+    }
+
+    .lead{
+      color:#475569;
+      margin-bottom:24px;
+    }
+
+    .grid{
+      display:grid;
+
+      grid-template-columns:
+        repeat(3,1fr);
+
+      gap:20px;
+    }
+
+    .item{
+      background:#f8fafc;
+
+      border:
+        1px solid #e2e8f0;
+
+      border-radius:16px;
+
+      padding:22px;
+    }
+
+    .item h3{
+      font-size:18px;
+      margin-bottom:10px;
+      color:#0f172a;
+    }
+
+    .item p{
+      font-size:14px;
+      color:#64748b;
+    }
+
+    .flow{
+      display:grid;
+      gap:14px;
+    }
+
+    .flow-item{
+      display:flex;
+      gap:16px;
+      align-items:flex-start;
+
+      background:#f8fafc;
+
+      border-radius:14px;
+
+      padding:18px;
+
+      border:
+        1px solid #e2e8f0;
+    }
+
+    .num{
+      flex:0 0 34px;
+
+      height:34px;
+
+      border-radius:50%;
+
+      background:#2563eb;
+      color:#fff;
+
+      display:grid;
+      place-items:center;
+
+      font-weight:bold;
+    }
+
+    .cta{
+      text-align:center;
+
+      background:#0f172a;
+      color:#fff;
+
+      border-radius:24px;
+
+      padding:48px 32px;
+    }
+
+    .cta h2{
+      font-size:28px;
+      margin-bottom:16px;
+    }
+
+    .cta p{
+      color:#cbd5e1;
+      margin-bottom:24px;
+    }
+
+    .cta-sub{
+      color:#e2e8f0;
+      font-size:14px;
+      margin:-8px 0 28px;
+    }
+
+    .btn{
+      display:inline-block;
+
+      padding:16px 34px;
+
+      background:#2563eb;
+      color:#fff;
+
+      text-decoration:none;
+
+      border-radius:999px;
+
+      font-weight:bold;
+
+      transition:0.2s;
+    }
+
+    .btn:hover{
+      background:#1d4ed8;
+      transform:translateY(-2px);
+    }
+
+    .note{
+      margin-top:14px;
+      font-size:13px;
+      color:#94a3b8;
+    }
+
+    footer{
+      text-align:center;
+      padding:32px 0;
+      font-size:13px;
+      color:#64748b;
+    }
+
+    @media (max-width:768px){
+
+      .hero{
+        padding:56px 0 40px;
+      }
+
+      .hero h1{
+        font-size:28px;
+      }
+
+      .grid{
+        grid-template-columns:1fr;
+      }
+
+      .card{
+        padding:24px;
+      }
+
+      .cta{
+        padding:36px 22px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+
+    <div class="container">
+
+      <span class="hero-label">
+        事前ヒアリング
+      </span>
+
+      <h1>
+        貴社の状況を事前に整理し、<br>
+        最適なご提案内容を準備します
+      </h1>
+
+      <p>
+        簡単な内容を事前に確認したうえで、
+        30分ほどオンラインにてご相談を承ります。
+      </p>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="section">
+
+      <div class="container">
+
+        <div class="card">
+
+          <h2 class="section-title">
+            このページでできること
+          </h2>
+
+          <p class="lead">
+            貴社の状況や課題感を事前に整理し、
+            オンライン相談時により具体的な
+            ご提案ができるようにするためのページです。
+          </p>
+
+          <div class="grid">
+
+            <div class="item">
+              <h3>課題の整理</h3>
+              <p>
+                営業・採用・事務業務など、
+                現在感じている課題を
+                簡単に整理できます。
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>提案内容の明確化</h3>
+              <p>
+                事前情報をもとに、
+                ご相談時に必要な情報を整理し、
+                スムーズにご案内できます。
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>日程調整の短縮</h3>
+              <p>
+                その場で日程予約ができるため、
+                メールでのやり取りを削減できます。
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="card">
+
+          <h2 class="section-title">
+            ご相談までの流れ
+          </h2>
+
+          <div class="flow">
+
+            <div class="flow-item">
+
+              <div class="num">1</div>
+
+              <div>
+                <h3>内容をご確認ください</h3>
+
+                <p>
+                  下記のご相談内容や
+                  対象業務をご確認ください。
+                </p>
+              </div>
+
+            </div>
+
+            <div class="flow-item">
+
+              <div class="num">2</div>
+
+              <div>
+                <h3>日程を選択してください</h3>
+
+                <p>
+                  TimeRexより、
+                  ご都合の良い日時を
+                  選択いただけます。
+                </p>
+              </div>
+
+            </div>
+
+            <div class="flow-item">
+
+              <div class="num">3</div>
+
+              <div>
+                <h3>オンラインにてご相談</h3>
+
+                <p>
+                  事前情報をもとに、
+                  貴社に合う進め方を
+                  ご提案いたします。
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="card">
+
+          <h2 class="section-title">
+            このようなご相談に対応できます
+          </h2>
+
+          <p class="lead">
+            以下のような業務改善・営業支援・
+            採用支援に関するご相談を
+            想定しています。
+          </p>
+
+          <div class="grid">
+
+            <div class="item">
+              <h3>営業支援</h3>
+
+              <p>
+                リード管理、
+                商談後フォロー、
+                営業KPI管理、
+                フォーム営業の効率化など。
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>採用支援</h3>
+
+              <p>
+                応募者対応、
+                面接日程調整、
+                候補者管理、
+                採用業務の自動化など。
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>事務業務改善</h3>
+
+              <p>
+                スプレッドシート管理、
+                通知自動化、
+                入力作業削減、
+                レポート作成など。
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="cta">
+
+          <h2>
+            30分のオンライン相談を予約する
+          </h2>
+
+          <p>
+            下記ボタンより、
+            ご都合の良い日時をお選びください。<br>
+
+            事前に簡単な質問項目を
+            ご入力いただくことで、
+            当日のご案内がスムーズになります。
+          </p>
+
+          <p class="cta-sub">
+            無理な営業等は一切ございません。<br>
+            まずは情報交換ベースで
+            お気軽にご相談ください。
+          </p>
+
+          <!-- TimeRex URLをここに設定 -->
+
+          <a
+            class="btn"
+            href="https://timerex.net/ここに予約URL"
+            target="_blank"
+          >
+            日程を予約する
+          </a>
+
+          <div class="note">
+            ※オンラインでの実施を想定しています。
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 HR Company
+  </footer>
+
+</body>
+</html>
